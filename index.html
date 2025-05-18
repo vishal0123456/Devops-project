@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISHAL KUMAR - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header .logo {
+            color: #fff;
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: border-bottom 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .profile-pic {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #00b894;
+            margin-bottom: 25px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 span {
+            color: #00b894;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin: 15px auto 35px;
+            max-width: 650px;
+            color: #555;
+        }
+
+        .btn {
+            background-color: #00b894;
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #00897b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">VISHAL KUMAR</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="Vishal.jpg" alt="Vishal Kumar" class="profile-pic">
+        <h2>Hello, I'm <span>Vishal Kumar</span></h2>
+        <p>I'm a passionate B.Tech IT student specializing in Data Analytics. Skilled in Machine Learning, Python, and UI/UX Design. I love solving real-world problems through technology.</p>
+        <a href="#" class="btn">View Projects</a>
+    </section>
+
+</body>
+</html>
